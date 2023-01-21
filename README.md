@@ -1,4 +1,4 @@
-# Unit 15 Homework: Visualizing Data with Leaflet
+#Visualizing Data with Leaflet
 
 ## Background
 
@@ -76,9 +76,3 @@ Perform the following tasks:
 
 * Add layer controls to our map.
 
-## Rubric
-
-[Unit 15 Homework Rubric](https://docs.google.com/document/d/1kDNeT4a54ik_AZrHYN3LmVMqH0hDuiwbK2h5lHNxumQ/edit?usp=sharing)
-
-___
-© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
