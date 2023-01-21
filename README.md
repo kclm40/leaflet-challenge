@@ -6,15 +6,6 @@ The United States Geological Survey, or USGS for short, is responsible for provi
 
 The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet.
 
-## Instructions
-
-The instructions for this activity are broken into two parts: 
-
-* Part 1: Create the Earthquake Visualization 
-
-* Part 2: Gather and Plot More Data (Optional)
-
-### Part 1: Create the Earthquake Visualization
 
 ![2-BasicMap](Images/2-BasicMap.png)
 
@@ -30,37 +21,21 @@ Your first task is to visualize an earthquake dataset. Complete the following st
 
    ![4-JSON](Images/4-JSON.png)
 
-2. Import and visualize the data by doing the following: 
+   * Used Leaflet to create a map that plots all the earthquakes from my dataset based on their longitude and latitude.
 
-   * Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
+       *  Data markers reflected the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes appeared larger, and earthquakes with greater depth appeared darker in color.
 
-       *  Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
+   * Included popups that provided additional information about the earthquake when its associated marker is clicked.
 
-       * **Hint:** The depth of the earth can be found as the third coordinate for each earthquake.
-
-   * Include popups that provide additional information about the earthquake when its associated marker is clicked.
-
-   * Create a legend that will provide context for your map data.
-
-   * Your visualization should look something like the preceding map.
+   * Created a legend that provided context for my map data.
 
 - - -
 
-### Part 2: Gather and Plot More Data (Optional)
-
-The USGS wants you to plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. So, you will need to pull in this dataset and visualize it alongside your original data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
-
-The following image is an example screenshot of what the USGS would like you to produce:
-
 ![5-Advanced](Images/5-Advanced.png)
 
-Perform the following tasks: 
-
-* Plot the tectonic plates dataset on the map in addition to the earthquakes.
-
-* Add other base maps to choose from.
+* Plotted the tectonic plates dataset on the map in addition to the earthquakes.
 
 * Put each dataset into separate overlays that can be turned on and off independently.
 
-* Add layer controls to our map.
+* Added layer controls to the map.
 
